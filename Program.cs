@@ -1,7 +1,10 @@
 ﻿using System.Data.Common;
+using ooooooooooooooooooop;
 
-ClassCat murk = new ClassCat();
-ClassCat moshka = new ClassCat();
+Cat murk = new Cat();
+Cat moshka = new Cat();
+
+
 
 murk.age = 5;
 murk.name = "Murk";
@@ -14,3 +17,17 @@ moshka.name = "moshka";
 moshka.color = "black";
 moshka.poroda = "kokayata";
 moshka.height = 35;
+
+
+moshka.SetTaiLlenth(10);
+murk.SetTaiLlenth(20);
+
+moshka.GetTail();
+murk.GetTail();
+
+Child molodoi_chelovek = new Child();
+
+molodoi_chelovek.SetName("Petechka");
+
+
+
